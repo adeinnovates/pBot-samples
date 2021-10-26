@@ -1,12 +1,14 @@
+/*
 Registered this schema with id - pbot-flow-sample
 {
   "id": "pbot-flow-sample"
 }
-
-/*To execute data on that registered workflow in realtime
-*send your transaction payload, which must include the fields compared during workflow registration
-* to the pbot execution endpoint
-*/schema must be JSON stringified 
+****
+To execute data on that registered workflow in realtime
+send your transaction payload, which must include the fields compared during workflow registration
+to the pbot execution endpoint
+schema must be JSON stringified 
+*/
 
 //Below will pass as true, because the workflow rule is configured to ALLOW any amount greater than 100000. Use case for this, is spend control, or account threshold monitoring
 {
