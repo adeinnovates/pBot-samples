@@ -86,7 +86,7 @@
                "type"
             ],
             "values":[
-               "samsonaligba@gmail.com",
+               "https://api.kysync.deposits.com/business/verify",
                "machine"
             ]
          }
