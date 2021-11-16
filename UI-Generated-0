@@ -1,0 +1,58 @@
+schema:[
+  {
+    "type": "group",
+    "properties": {
+      "type": "or",
+      "conditions": [
+        {
+          "type": "comparison",
+          "properties": {
+            "type": "<",
+            "field": "Invoice number",
+            "target": "677889"
+          }
+        },
+        {
+          "type": "comparison",
+          "properties": {
+            "type": "<=",
+            "field": "Vendor organization",
+            "target": "9000"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "group",
+    "properties": {
+      "type": "or",
+      "conditions": [
+        {
+          "type": "comparison",
+          "properties": {
+            "type": "<",
+            "field": "Total",
+            "target": "7000"
+          }
+        },
+        {
+          "type": "comparison",
+          "properties": {
+            "type": ">",
+            "field": "Due date",
+            "target": "809976"
+          }
+        },
+        {
+          "type": "comparison",
+          "properties": {
+            "type": "=",
+            "field": "Invoice number",
+            "target": "80098767"
+          }
+        }
+      ]
+    }
+  }
+]
