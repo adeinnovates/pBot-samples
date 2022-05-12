@@ -1,0 +1,36 @@
+{
+"user":"id",
+"source":"trigger",
+"organization": "id",
+"workflow_schema":{},
+"trigger_schema": [
+    "invoiceTotal",
+    "invoice_no",
+    "vendor_name",
+    "date",
+    "po",
+    "type",
+    "terms",
+    "due_date",
+    "customer_name"
+],
+"form":"id",
+"payment":"paystack",
+"is_active":1,
+"workflow_title":""
+}
+
+//triggers
+payment
+form
+invoice
+bank
+
+//workflow_id is auto generated and returned 
+
+//form is optional, required if trigger is form
+//automatically update form with workflow id and url
+
+//"workflow_schema":"schema generated from frontend",
+
+//Payment options are: paystack, flutterwave, bank, wallet
