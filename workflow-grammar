@@ -1,0 +1,22 @@
+schema                  { condition:condition actions:[action] }
+condition               { type:CONDITION_TYPE properties: conditionDef }
+conditionDef            = comparison | group | service;
+comparison              { type:COMPARISON_TYPE field:FIELD target:TARGET}
+group                   { type:GROUP_TYPE conditions:[condition]}
+service                 { type:SERVICE_TYPE fields:[FIELD] targets:[TARGET] }
+action                  { type:ACTION_TYPE properties: actionDef }
+actionDef               { keys:[KEYS] values:[VALUES]}
+
+
+# Terminals
+CONDITION_TYPE:         'comparison'|'service'|'group';
+GROUP_TYPE:             'and'|'or';
+SERVICE_TYPE:           .*;
+ACTION:                 .*;
+ACTION_TYPE:            .*;
+COMPARISON_TYPE:        '='|'!='|'<'|'<='|'>'|'>=';
+
+FIELD:                  .*;
+TARGET:                 .*;
+KEYS:                   .*;
+VALUES:                 .*;
