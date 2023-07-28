@@ -1,0 +1,190 @@
+1:56:19 PM: build-image version: 20e1f1f500e4cbad9ea8a99bd40807bef3093551 (focal)
+1:56:19 PM: buildbot version: 20e1f1f500e4cbad9ea8a99bd40807bef3093551
+1:56:19 PM: Building without cache
+1:56:19 PM: Starting to prepare the repo for build
+1:56:19 PM: No cached dependencies found. Cloning fresh repo
+1:56:19 PM: git clone --filter=blob:none https://github.com/mulaateam/aau
+1:56:21 PM: Preparing Git Reference refs/heads/master
+1:56:23 PM: Starting to install dependencies
+1:56:23 PM: Python version set to 3.8
+1:56:23 PM: Attempting Ruby version 2.7.2, read from environment
+1:56:24 PM: Using Ruby version 2.7.2
+1:56:24 PM: Started restoring cached go cache
+1:56:24 PM: Finished restoring cached go cache
+1:56:24 PM: go version go1.19.11 linux/amd64
+1:56:25 PM: Using PHP version 8.0
+1:56:26 PM: v18.17.0 is already installed.
+1:56:26 PM: Now using node v18.17.0 (npm v9.6.7)
+1:56:26 PM: Enabling Node.js Corepack
+1:56:26 PM: Started restoring cached build plugins
+1:56:26 PM: Finished restoring cached build plugins
+1:56:26 PM: Started restoring cached corepack dependencies
+1:56:26 PM: Finished restoring cached corepack dependencies
+1:56:26 PM: No npm workspaces detected
+1:56:26 PM: Started restoring cached node modules
+1:56:26 PM: Finished restoring cached node modules
+1:56:26 PM: Installing npm packages using npm version 9.6.7
+1:56:30 PM: npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+1:56:30 PM: npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+1:56:30 PM: npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+1:56:30 PM: npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+1:56:30 PM: npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+1:56:30 PM: npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+1:56:30 PM: npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+1:56:31 PM: npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+1:56:31 PM: npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+1:56:31 PM: npm WARN deprecated html-webpack-plugin@3.2.0: 3.x is no longer supported
+1:56:32 PM: npm WARN deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+1:56:32 PM: npm WARN deprecated eslint-loader@2.2.1: This loader has been deprecated. Please use eslint-webpack-plugin
+1:56:32 PM: npm WARN deprecated babel-eslint@10.1.0: babel-eslint is now @babel/eslint-parser. This package will no longer receive updates.
+1:56:33 PM: npm WARN deprecated @hapi/bourne@1.3.2: This version has been deprecated and is no longer supported or maintained
+1:56:33 PM: npm WARN deprecated @hapi/address@2.1.4: Moved to 'npm install @sideway/address'
+1:56:33 PM: npm WARN deprecated @hapi/hoek@8.5.1: This version has been deprecated and is no longer supported or maintained
+1:56:33 PM: npm WARN deprecated @hapi/topo@3.1.6: This version has been deprecated and is no longer supported or maintained
+1:56:33 PM: npm WARN deprecated @hapi/joi@15.1.1: Switch to 'npm install joi'
+1:56:34 PM: npm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+1:56:34 PM: npm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+1:56:35 PM: npm WARN deprecated axios@0.15.3: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+1:56:38 PM: npm WARN deprecated core-js@3.15.2: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+1:56:38 PM: npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+1:56:38 PM: npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+1:56:38 PM: npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+1:56:45 PM: added 1555 packages, and audited 1556 packages in 19s
+1:56:45 PM: 130 packages are looking for funding
+1:56:45 PM:   run `npm fund` for details
+1:56:45 PM: 58 vulnerabilities (1 low, 11 moderate, 35 high, 11 critical)
+1:56:45 PM: To address issues that do not require attention, run:
+1:56:45 PM:   npm audit fix
+1:56:45 PM: To address all issues possible (including breaking changes), run:
+1:56:45 PM:   npm audit fix --force
+1:56:45 PM: Some issues need review, and may require choosing
+1:56:45 PM: a different dependency.
+1:56:45 PM: Run `npm audit` for details.
+1:56:45 PM: npm packages installed
+1:56:46 PM: Install dependencies script success
+1:56:46 PM: Starting build script
+1:56:46 PM: Detected 1 framework(s)
+1:56:47 PM: vue at version 4.5.13
+1:56:47 PM: Section completed: initializing
+1:56:48 PM: ​
+1:56:48 PM: Netlify Build                                                 
+1:56:48 PM: ────────────────────────────────────────────────────────────────
+1:56:48 PM: ​
+1:56:48 PM: ❯ Version
+1:56:48 PM:   @netlify/build 29.17.2
+1:56:48 PM: ​
+1:56:48 PM: ❯ Flags
+1:56:48 PM:   baseRelDir: true
+1:56:48 PM:   buildId: 64c3baf1202b7a795dfabc56
+1:56:48 PM:   deployId: 64c3baf1202b7a795dfabc58
+1:56:48 PM: ​
+1:56:48 PM: ❯ Current directory
+1:56:48 PM:   /opt/build/repo
+1:56:48 PM: ​
+1:56:48 PM: ❯ Config file
+1:56:48 PM:   No config file was defined: using default values.
+1:56:48 PM: ​
+1:56:48 PM: ❯ Context
+1:56:48 PM:   production
+1:56:48 PM: ​
+1:56:48 PM: Build command from Netlify app                                
+1:56:48 PM: ────────────────────────────────────────────────────────────────
+1:56:48 PM: ​
+1:56:48 PM: $ yarn build
+1:56:48 PM: yarn run v1.22.19
+1:56:48 PM: $ vue-cli-service build
+1:56:49 PM: Browserslist: caniuse-lite is outdated. Please run:
+1:56:49 PM: npx browserslist@latest --update-db
+1:56:49 PM: Why you should do it regularly:
+1:56:49 PM: https://github.com/browserslist/browserslist#browsers-data-updating
+1:56:49 PM: -  Building for production...
+1:56:50 PM: Error: error:0308010C:digital envelope routines::unsupported
+1:56:50 PM:     at new Hash (node:internal/crypto/hash:69:19)
+1:56:50 PM:     at Object.createHash (node:crypto:133:10)
+1:56:50 PM:     at module.exports (/opt/build/repo/node_modules/webpack/lib/util/createHash.js:135:53)
+1:56:50 PM:     at NormalModule._initBuildHash (/opt/build/repo/node_modules/webpack/lib/NormalModule.js:417:16)
+1:56:50 PM:     at handleParseError (/opt/build/repo/node_modules/webpack/lib/NormalModule.js:471:10)
+1:56:50 PM:     at /opt/build/repo/node_modules/webpack/lib/NormalModule.js:503:5
+1:56:50 PM:     at /opt/build/repo/node_modules/webpack/lib/NormalModule.js:358:12
+1:56:50 PM:     at /opt/build/repo/node_modules/loader-runner/lib/LoaderRunner.js:373:3
+1:56:50 PM:     at iterateNormalLoaders (/opt/build/repo/node_modules/loader-runner/lib/LoaderRunner.js:214:10)
+1:56:50 PM:     at iterateNormalLoaders (/opt/build/repo/node_modules/loader-runner/lib/LoaderRunner.js:221:10)
+1:56:50 PM:     at /opt/build/repo/node_modules/loader-runner/lib/LoaderRunner.js:236:3
+1:56:50 PM:     at runSyncOrAsync (/opt/build/repo/node_modules/loader-runner/lib/LoaderRunner.js:130:11)
+1:56:50 PM:     at iterateNormalLoaders (/opt/build/repo/node_modules/loader-runner/lib/LoaderRunner.js:232:2)
+1:56:50 PM:     at Array.<anonymous> (/opt/build/repo/node_modules/loader-runner/lib/LoaderRunner.js:205:4)
+1:56:50 PM:     at Storage.finished (/opt/build/repo/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+1:56:50 PM:     at /opt/build/repo/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+1:56:50 PM: Browserslist: caniuse-lite is outdated. Please run:
+1:56:50 PM: npx browserslist@latest --update-db
+1:56:50 PM: Why you should do it regularly:
+1:56:50 PM: https://github.com/browserslist/browserslist#browsers-data-updating
+1:56:50 PM: /opt/build/repo/node_modules/loader-runner/lib/LoaderRunner.js:114
+1:56:50 PM: 			throw e;
+1:56:50 PM: 			^
+1:56:50 PM: Error: error:0308010C:digital envelope routines::unsupported
+1:56:50 PM:     at new Hash (node:internal/crypto/hash:69:19)
+1:56:50 PM:     at Object.createHash (node:crypto:133:10)
+1:56:50 PM:     at module.exports (/opt/build/repo/node_modules/webpack/lib/util/createHash.js:135:53)
+1:56:50 PM:     at NormalModule._initBuildHash (/opt/build/repo/node_modules/webpack/lib/NormalModule.js:417:16)
+1:56:50 PM:     at handleParseError (/opt/build/repo/node_modules/webpack/lib/NormalModule.js:471:10)
+1:56:50 PM:     at /opt/build/repo/node_modules/webpack/lib/NormalModule.js:503:5
+1:56:50 PM:     at /opt/build/repo/node_modules/webpack/lib/NormalModule.js:358:12
+1:56:50 PM:     at /opt/build/repo/node_modules/loader-runner/lib/LoaderRunner.js:373:3
+1:56:50 PM:     at iterateNormalLoaders (/opt/build/repo/node_modules/loader-runner/lib/LoaderRunner.js:214:10)
+1:56:50 PM:     at iterateNormalLoaders (/opt/build/repo/node_modules/loader-runner/lib/LoaderRunner.js:221:10)
+1:56:50 PM:     at /opt/build/repo/node_modules/loader-runner/lib/LoaderRunner.js:236:3
+1:56:50 PM:     at context.callback (/opt/build/repo/node_modules/loader-runner/lib/LoaderRunner.js:111:13)
+1:56:50 PM:     at /opt/build/repo/node_modules/cache-loader/dist/index.js:147:7
+1:56:50 PM:     at /opt/build/repo/node_modules/graceful-fs/graceful-fs.js:61:14
+1:56:50 PM:     at FSReqCallback.oncomplete (node:fs:200:23) {
+1:56:50 PM:   opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
+1:56:50 PM:   library: 'digital envelope routines',
+1:56:50 PM:   reason: 'unsupported',
+1:56:50 PM:   code: 'ERR_OSSL_EVP_UNSUPPORTED'
+1:56:50 PM: }
+1:56:50 PM: Node.js v18.17.0
+1:56:50 PM: error Command failed with exit code 1. (https://ntl.fyi/exit-code-1)
+1:56:50 PM: info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+1:56:50 PM: ​
+1:56:50 PM: build.command failed                                        
+1:56:50 PM: ────────────────────────────────────────────────────────────────
+1:56:50 PM: ​
+1:56:50 PM:   Error message
+1:56:50 PM:   Command failed with exit code 1: yarn build (https://ntl.fyi/exit-code-1)
+1:56:50 PM: ​
+1:56:50 PM:   Error location
+1:56:50 PM:   In Build command from Netlify app:
+1:56:50 PM:   yarn build
+1:56:50 PM: ​
+1:56:50 PM:   Resolved config
+1:56:50 PM:   build:
+1:56:50 PM:     command: yarn build
+1:56:50 PM:     commandOrigin: ui
+1:56:50 PM:     environment:
+1:56:50 PM:       - NPM_FLAGS
+1:56:50 PM:     publish: /opt/build/repo/dist
+1:56:50 PM:     publishOrigin: ui
+1:56:52 PM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
+1:56:51 PM: Caching artifacts
+1:56:51 PM: Started saving node modules
+1:56:51 PM: Finished saving node modules
+1:56:51 PM: Started saving build plugins
+1:56:51 PM: Finished saving build plugins
+1:56:51 PM: Started saving corepack cache
+1:56:51 PM: Finished saving corepack cache
+1:56:51 PM: Started saving pip cache
+1:56:51 PM: Finished saving pip cache
+1:56:51 PM: Started saving emacs cask dependencies
+1:56:51 PM: Finished saving emacs cask dependencies
+1:56:51 PM: Started saving maven dependencies
+1:56:51 PM: Finished saving maven dependencies
+1:56:51 PM: Started saving boot dependencies
+1:56:51 PM: Finished saving boot dependencies
+1:56:51 PM: Started saving rust rustup cache
+1:56:51 PM: Finished saving rust rustup cache
+1:56:51 PM: Started saving go dependencies
+1:56:51 PM: Finished saving go dependencies
+1:56:52 PM: Build failed due to a user error: Build script returned non-zero exit code: 2
+1:56:52 PM: Failing build: Failed to build site
+1:56:52 PM: Finished processing build request in 33.626s
