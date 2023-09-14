@@ -151,5 +151,22 @@
         "description":"",
       }
     },
+{
+      "type":"checkout",
+      "id":"id",
+"option":[
+      	"paystack",
+        "flutterwave",
+        "interswitch",
+        "stripe",
+        "moniepoint"
+      ],
+      "attributes":{
+        "label":"null",
+        "value":"",
+        "type":"card",
+        "description":"",
+      }
+    },
   ]
 }
