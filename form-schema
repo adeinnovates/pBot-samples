@@ -1,0 +1,155 @@
+{
+  "type": "group",
+  "properties": [
+    {
+      "type":"input",
+      "id":"id",
+      "attributes":{
+        "placeholder":"",
+        "label":"",
+        "value":"",
+        "type":"string|money|email|number|url",
+        "description":"",
+        "required": true
+      }
+    },
+    {
+      "type":"file",
+      "id":"id",
+      "attributes":{
+        "placeholder":"",
+        "label":"",
+        "value":"",
+        "type":"pdf|jpg|png",
+        "description":"",
+        "required": true,
+        "maxSize": 10
+      }
+    },
+    {
+      "type":"list",
+      "id":"id",
+      "attributes":{
+        "column":1,
+        "maxRow":1
+      },
+      "properties":[
+        {
+      "type":"input",
+      "id":"id",
+      "attributes":{
+        "placeholder":"",
+        "label":"",
+        "value":"",
+        "type":"string|money|email|number|url",
+        "description":"",
+        "required": false
+      }
+    },
+        {
+      "type":"input",
+      "id":"id",
+      "attributes":{
+        "placeholder":"",
+        "label":"",
+        "value":"",
+        "type":"string|money|email|number|url",
+        "description":"",
+        "required": false
+      }
+    },
+      ]
+    },
+    {
+      "type":"radio",
+      "id":"id",
+      "value":"",
+      "option":[
+        {
+        "id":"",
+        "label":"HTML",
+        "value":"html",
+        },
+        {
+        "id":"",
+        "label":"CSS",
+        "value":"css",
+        }
+      ],
+    },
+    {
+      "type":"textarea",
+      "id":"id",
+      "attributes":{
+        "placeholder":"",
+        "label":"",
+        "value":"",
+        "description":"",
+        "required": true,
+        "maxRow":3
+      }
+    },
+    {
+      "type":"select",
+      "id":"id",
+      "value":"",
+      "option":[
+      	"red",
+        "blue",
+        "yellow"
+      ],
+      "attributes":{
+        "placeholder":"",
+        "label":"",
+        "description":"",
+        "required": true,
+      }
+    },
+    {
+      "type":"pager",
+      "id":"id",
+      "attributes":{
+        "label":"",
+      }
+    },
+    {
+      "type":"datetime",
+      "id":"id",
+      "attributes":{
+        "placeholder":"",
+        "label":"",
+        "value":"",
+        "description":"",
+        "required": true,
+        "minimum":null,
+        "maximum":null,
+        "time": false
+      }
+    },
+    {
+      "type":"calculate",
+      "id":"id",
+      "attributes":{
+        "placeholder":"",
+        "label":"",
+        "value":"",
+        "description":"",
+        "operator": "sum|multiply"
+      },
+      "target":[
+        "id",
+        "id2"
+      ]
+    },
+      {
+      "type":"content",
+      "id":"id",
+      "attributes":{
+        "label":"",
+        "value":"",
+        "type":"string|media",
+        "description":"",
+      }
+    },
+  ]
+}
